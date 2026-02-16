@@ -1,0 +1,55 @@
+div {
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+}
+.cube {
+    color: white;
+    font size: 24px;
+}
+#cube1 {
+    background: rgb(128, 0, 0);
+}
+#cube2 {
+    background: blue;
+}
+#cube3 {background: orange;
+}
+.text-center {
+    text-align: center;
+}
+input[type="number"]{
+    border: 5px solid blue;
+}
+input[type^="t"]{
+    border: 5px solid green;
+}
+input[type$="d"]{
+    border: 5px solid yellow;
+}
+input[type*="mail"]{
+    border: 5px solid rgb(0, 255, 76);
+}
+a[href*="github"]{
+    color: black;
+}
+a[href*="youtube"]{
+    color: rgb(250, 0, 0);
+}
+a[href*="tiktok"]{
+    color: aqua;
+}
+a[href*="github"]{
+    color: black;
+}
+a[href*="github"]{
+    color: black;
+}
+div{
+    border: 10px inset black;
+    width: 500px;
+    height: 100px;
+    margin: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,152 @@
+/* ===================== */
+/* GLOBAL RESET */
+/* ===================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #333;
+}
+
+
+/* ===================== */
+/* HEADER */
+/* ===================== */
+
+#site-header {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 4px solid #1e3c72;
+}
+
+#site-header h1 {
+    margin-bottom: 15px;
+}
+
+/* nav styled as flex */
+#site-header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* ===================== */
+/* NAV LINKS */
+/* ===================== */
+
+nav a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 2px solid #1e3c72;
+    border-radius: 20px;
+    color: #1e3c72;
+    transition: 0.3s;
+}
+
+/* hover effect */
+nav a:hover {
+    background-color: #1e3c72;
+    color: white;
+}
+
+/* links with target="_blank" */
+nav a[target="_blank"] {
+    border-color: crimson;
+    color: crimson;
+}
+
+
+/* ===================== */
+/* MAIN LAYOUT */
+/* ===================== */
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+
+/* ===================== */
+/* CARDS */
+/* ===================== */
+
+.card {
+    width: 280px;
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* featured card */
+.card[data-type="featured"] {
+    border: 3px solid gold;
+    background-color: #fffbe6;
+}
+
+
+/* ===================== */
+/* FORM */
+/* ===================== */
+
+form {
+    margin-top: 30px;
+}
+
+form input {
+    display: block;
+    width: 260px;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #1e3c72;
+    outline: none;
+}
+
+/* password different */
+form input[type="password"] {
+    border-bottom: 2px solid crimson;
+}
+
+/* button */
+form button {
+    padding: 10px 25px;
+    background-color: #1e3c72;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: crimson;
+}
+
+
+/* ===================== */
+/* FOOTER */
+/* ===================== */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+}

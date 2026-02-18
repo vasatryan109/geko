@@ -89,7 +89,7 @@ form input {
 }
 
 form input[type="password"] {
-    border-bottom: 2px solid crimson;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 form button {
@@ -103,7 +103,7 @@ form button {
 }
 
 form button:hover {
-    background-color: crimson;
+    background-color: red;
 }
 
 footer {

@@ -1,8 +1,4 @@
-/* ===================== */
-/* GLOBAL RESET */
-/* ===================== */
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,10 +11,6 @@ body {
 }
 
 
-/* ===================== */
-/* HEADER */
-/* ===================== */
-
 #site-header {
     background-color: white;
     padding: 25px;
@@ -30,17 +22,12 @@ body {
     margin-bottom: 15px;
 }
 
-/* nav styled as flex */
 #site-header nav {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-
-/* ===================== */
-/* NAV LINKS */
-/* ===================== */
 
 nav a {
     text-decoration: none;
@@ -51,22 +38,15 @@ nav a {
     transition: 0.3s;
 }
 
-/* hover effect */
 nav a:hover {
     background-color: #1e3c72;
     color: white;
 }
 
-/* links with target="_blank" */
 nav a[target="_blank"] {
     border-color: crimson;
     color: crimson;
 }
-
-
-/* ===================== */
-/* MAIN LAYOUT */
-/* ===================== */
 
 #main-content {
     display: flex;
@@ -74,11 +54,6 @@ nav a[target="_blank"] {
     flex-wrap: wrap;
     padding: 40px;
 }
-
-
-/* ===================== */
-/* CARDS */
-/* ===================== */
 
 .card {
     width: 280px;
@@ -94,16 +69,10 @@ nav a[target="_blank"] {
     transform: translateY(-5px);
 }
 
-/* featured card */
 .card[data-type="featured"] {
     border: 3px solid gold;
     background-color: #fffbe6;
 }
-
-
-/* ===================== */
-/* FORM */
-/* ===================== */
 
 form {
     margin-top: 30px;
@@ -119,12 +88,10 @@ form input {
     outline: none;
 }
 
-/* password different */
 form input[type="password"] {
     border-bottom: 2px solid crimson;
 }
 
-/* button */
 form button {
     padding: 10px 25px;
     background-color: #1e3c72;
@@ -138,11 +105,6 @@ form button {
 form button:hover {
     background-color: crimson;
 }
-
-
-/* ===================== */
-/* FOOTER */
-/* ===================== */
 
 footer {
     text-align: center;

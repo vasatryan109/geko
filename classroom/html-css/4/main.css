@@ -1,0 +1,46 @@
+.box{
+    border: 5px solid black;
+    width: 90vw;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f{
+    width: 100px;
+    height: 100px;
+    background: black;
+    font-family: sans-serif;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1{
+    order: 0;
+}
+.f2{
+    order: 0;
+}
+.f3{
+    order: 0;
+}
+.f4{
+    order: 0;
+}
+.f5{
+    order: 0;
+}
+.f6{
+    order: 0;
+}
+.f7{
+    order: 0;
+}   

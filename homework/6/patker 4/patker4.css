@@ -1,0 +1,23 @@
+.slaq{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    aspect-ratio: 1/1;
+    width: 200px;
+    border: 200px solid green;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    
+}
+
+.poch{
+    margin: 0;
+    padding: 0;
+    border: 2px solid green;
+    width: 100px;
+    height: 200px;
+    background-color: green
+    
+}
+

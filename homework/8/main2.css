@@ -16,14 +16,13 @@ body {
     align-items: center;
 }
 
-/* Navbar ձախ */
+
 .navbar {
     display: flex;
     gap: 40px;
     order: 1;
 }
 
-/* Button navbar-ի կողքը */
 .btn {
     background: #00adb5;
     color: white;
@@ -34,7 +33,6 @@ body {
     order: 2;
 }
 
-/* Logo գնա վերջ */
 .logo {
     color: white;
     font-weight: 700;

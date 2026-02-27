@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rect{
+    background: #33499F;
+    border: #FFFFFF;
+}
+
+.container{
+    background: #DE3832;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.r1{
+    width: 125px;
+    height: 125px;
+    border-width: 0 15px 15px 0;
+    top: 0;
+    left: 0;
+}
+

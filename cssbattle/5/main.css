@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background: #0B2429;
+}
+
+.circle {
+    position: absolute;
+    width: 120px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+
+.circle1 {
+    background-color: #F3AC3C;
+    top: 30px;
+    left: 200px;
+}
+
+
+.circle2 {
+    background-color: #998235;
+    top: 90px;
+    left: 140px;
+    border-top-right-radius: 0;
+}
+
+
+.circle3 {
+    background-color: #F3AC3C;
+    top: 150px;
+    left: 80px;
+    border-top-right-radius: 0;
+}

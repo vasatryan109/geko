@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    border: 10px solid white;
+    border-style: solid dotted dotted solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: box 2s infinite linear;
+}
+
+.in{
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    border: 10px solid red;
+    border-style: dotted solid solid solid;
+    border-radius: 50%;
+    animation: in 1s infinite linear;
+    display: flex;
+}
+
+
+@keyframes box{
+     0%{
+        rotate: 0deg;
+     }
+
+     100%{
+        rotate: 360deg;
+     }
+}
+
+@keyframes in{
+     0%{
+        rotate: 360deg;
+     }
+
+     100%{
+        rotate: 0deg;
+     }
+}

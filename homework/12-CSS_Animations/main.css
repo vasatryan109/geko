@@ -1,0 +1,131 @@
+body{
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+
+
+.traffic-light{
+    background:#333;
+    padding:20px;
+    border-radius:15px;
+    width:120px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+
+
+.light{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:#111;
+    margin:auto;
+}
+
+
+.red{
+    animation:redLight 12s infinite;
+}
+
+
+.yellow{
+    animation:yellowLight 12s infinite;
+}
+
+
+.green{
+    animation:greenLight 12s infinite;
+}
+
+
+
+@keyframes redLight{
+
+0%{
+background:red;
+box-shadow:0 0 20px red;
+}
+
+20%{
+background:red;
+box-shadow:0 0 20px red;
+}
+
+40%{
+background:#111;
+box-shadow:none;
+}
+
+100%{
+background:red;
+box-shadow:0 0 20px red;
+}
+
+}
+
+@keyframes yellowLight{
+
+0%{
+background:#111;
+}
+
+20%{
+background:yellow;
+box-shadow:0 0 20px yellow;
+}
+
+30%{
+background:#111;
+box-shadow:none;
+}
+
+80%{
+background:yellow;
+box-shadow:0 0 20px yellow;
+}
+
+100%{
+background:#111;
+box-shadow:none;
+}
+
+}
+
+@keyframes greenLight{
+
+0%{
+background:#111;
+}
+
+30%{
+background:lime;
+box-shadow:0 0 20px lime;
+}
+
+55%{
+background:lime;
+box-shadow:0 0 20px lime;
+}
+
+
+60%{background:#111;}
+65%{background:lime;}
+70%{background:#111;}
+75%{background:lime;}
+
+80%{
+background:#111;
+box-shadow:none;
+}
+
+100%{
+background:#111;
+}
+
+}

@@ -1,0 +1,85 @@
+body{
+margin:0;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#222;
+}
+
+.field{
+width:400px;
+height:300px;
+background:#071945;
+position:relative;
+}
+
+/* rows */
+
+.row{
+display:flex;
+justify-content:space-around;
+position:absolute;
+width:100%;
+top:40px;
+}
+
+.row2{
+top:110px;
+}
+
+/* enemy */
+
+.enemy{
+width:70px;
+height:15px;
+display:flex;
+justify-content:space-between;
+align-items:flex-end;
+}
+
+.purple{
+background:#B069F7;
+}
+
+.yellow{
+background:#F8DA37;
+}
+
+/* legs */
+
+.leg{
+width:15px;
+height:15px;
+margin-top:15px;
+}
+
+.purple .leg{
+background:#B069F7;
+}
+
+.yellow .leg{
+background:#F8DA37;
+}
+
+/* bullet */
+
+.bullet{
+position:absolute;
+width:8px;
+height:60px;
+background:#2CE1EA;
+left:196px;
+top:170px;
+}
+
+.ship{
+position:absolute;
+bottom:10px;
+left:170px;
+width:0;
+height:0;
+border-left:30px solid transparent;
+border-right:30px solid transparent;
+border-top:50px solid #2CE1EA;
+}

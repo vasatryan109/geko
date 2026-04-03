@@ -103,9 +103,10 @@ button {
 
 .pop_wrap{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
+    padding: 100px;
 }
 
 .pop_head{
@@ -113,3 +114,17 @@ button {
     font-size: var(--font-size-5);
     font-weight: 700;
 }
+
+.pop_header{
+    font-size: var(--font-size-8);
+    font-weight: 500;
+    padding: 10px;
+}
+
+.pop_text{
+    font-size: var(--font-size-3);
+    font-weight: 400;
+    color: #666666;
+    padding: 10px;
+}
+
